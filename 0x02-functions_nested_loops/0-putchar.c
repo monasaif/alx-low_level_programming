@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include"main.h"
 /**
  * main - ENTRY POINT
  *
- * Description: write _putchar
+ * Description: write _putchar using putchar prototype
  *
  * Return: 0 (success)
 */
