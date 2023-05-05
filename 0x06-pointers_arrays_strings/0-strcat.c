@@ -3,9 +3,9 @@
  *_strcat - function that concate two string
  *
  * @dest: pointer to destination input
- * @src : pointer to source input
+ * @src: pointer to source input
  *
- * Return: pointer to resulting string
+ * Return: pointer to resulting string @dest
 */
 char *_strcat(char *dest, char *src)
 {
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 
 	c = 0;
 
-	while (dest[0])
+	while (dest[c])
 		c++;
 
 	for (c2 = 0; src[c2] ; c++)
