@@ -6,7 +6,7 @@
  * @argc: int
  * @argv: value
  *
- * Return: 0 (success), 1 (error)
+ * Return: 0
 */
 int main(int argc, char *argv[])
 {
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Erorr\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
