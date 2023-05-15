@@ -1,1 +1,1 @@
- debugging
+ static librariy
