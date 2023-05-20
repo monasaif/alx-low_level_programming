@@ -8,7 +8,7 @@
  * @s2: pointer string 2
  * @n: number of bytes
  *
- * Return:  pointer shall point to a newly allocated space in memory
+ * Return: pointer shall point to a newly allocated space in memory
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -23,6 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (s1_length = 0; s1[s1_length] != '\0'; s1_length++)
 		;
+
 	for (s2_length = 0; s2[s2_length] != '\0'; s2_length++)
 		;
 
@@ -37,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (j = 0; j < n; j++)
 	{
-		str[i] = str[j];
+		str[i] = s2[j];
 			i++;
 	}
 
