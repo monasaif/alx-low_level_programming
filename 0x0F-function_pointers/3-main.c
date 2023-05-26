@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - check the code.
+ * main - check the code for students.
  * @argc: the number of arguments
  * @argv: arguments value
  *
